@@ -26,7 +26,9 @@
   "dependencies": {
     "args": "^3.0.7",
     "compression": "^1.7.1",
+    "connect-multiparty": "^2.1.0",
     "express": "^4.16.2",
+    "formidable": "^1.1.1",
     "ip": "^1.1.5",
     "serve-index": "^1.9.1"
   }
