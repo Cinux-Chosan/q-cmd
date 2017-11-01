@@ -16,7 +16,8 @@
   ],
   "bin": {
     "server": "bin/server",
-    "cmkdir": "bin/cmkdir"
+    "cmkdir": "bin/cmkdir",
+    "lf": "bin/lf"
   },
   "author": "chosan",
   "license": "ISC",
