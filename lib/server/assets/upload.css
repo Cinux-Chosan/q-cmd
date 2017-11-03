@@ -1,0 +1,49 @@
+body{
+  background: #ece9e9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ece9e9)) no-repeat;
+}
+
+.upload-form{
+  width: 90%;
+  margin: auto;
+}
+
+.upload-form__upload-main{
+  height: 200px;
+  border: 2px dashed #ccc;
+  position: relative;
+}
+
+.upload-form__upload-main:hover .upload-form__tip{
+  opacity: .6;
+}
+
+.upload-form__tip{
+  position: relative;
+  text-align: center;
+  transition: all .2s ease;
+  font-size: 30px;
+  color: #ccc;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.upload-form__upload-file{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.upload-form__btn{
+  outline: none;
+  border: 0;
+  width: 60px;
+  height: 30px;
+  margin-top: 20px;
+  float: right;
+}
+
+.upload-form__upload-list li{
+  line-height: 30px;
+}
