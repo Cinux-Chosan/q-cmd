@@ -1,6 +1,6 @@
 {
   "name": "q-cmd",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "quick cmds",
   "main": "index.js",
   "scripts": {
