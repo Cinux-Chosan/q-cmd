@@ -9,15 +9,14 @@
   </head>
   <body>
     <form action="/upload" class="upload-form" method="post" enctype="multipart/form-data">
-      <ol class="upload-form__upload-list" id="upload_list">
-
-      </ol>
       <div class="upload-form__upload-main">
         <div class="upload-form__tip">点击选择文件</div>
         <input type="file" id="fileupload" name="fileupload" class="upload-form__upload-file" multiple="multiple">
       </div>
       <button type="submit" class="upload-form__btn upload-form__btn_large" name="button">上传</button>
     </form>
+    <ol class="upload-form__upload-list" id="upload_list">
+    </ol>
     <script type="text/javascript">
       {%script%}
     </script>

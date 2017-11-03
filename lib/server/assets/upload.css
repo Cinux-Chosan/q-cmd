@@ -2,13 +2,21 @@ body{
   background: #ece9e9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ece9e9)) no-repeat;
 }
 
-.upload-form{
+.upload-form, .upload-form__upload-list{
   width: 90%;
   margin: auto;
 }
 
+.upload-form::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .upload-form__upload-main{
   height: 200px;
+  display: flex;
+  align-items: center;
   border: 2px dashed #ccc;
   position: relative;
 }
@@ -23,8 +31,7 @@ body{
   transition: all .2s ease;
   font-size: 30px;
   color: #ccc;
-  top: 50%;
-  transform: translateY(-50%);
+  flex: 1;
 }
 
 .upload-form__upload-file{
